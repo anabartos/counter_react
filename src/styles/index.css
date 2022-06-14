@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container-fluid{
+    display:flex;
+    justify-content:center;
+    height: 100x;
+    background-color: black;
+    margin: 10px
+}
+.row{
+    margin:10px;
+}
+.row div{
+    background-color: #101010;
+    margin: 15px;
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+    padding: 10px;
+    text-align: center
+}
