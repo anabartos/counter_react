@@ -12,12 +12,12 @@ const SimpleCounter = (props) => {
 				<div className="col clock">
 					<i className="far fa-clock" />
 				</div>
-				<div className="col six">{props.six % 10}</div>
-				<div className="col five">{props.five % 10}</div>
-				<div className="col four">{props.four % 10}</div>
-				<div className="col three">{props.three % 10}</div>
-				<div className="col two">{props.two % 10}</div>
-				<div className="col one">{props.one % 10}</div>
+				<div className="col six">{props.six}</div>
+				<div className="col five">{props.five}</div>
+				<div className="col four">{props.four}</div>
+				<div className="col three">{props.three}</div>
+				<div className="col two">{props.two}</div>
+				<div className="col one">{props.one}</div>
 			</div>
 		</div>
 	);
